@@ -1,4 +1,4 @@
-import PerformanceDashboard from "@/performance-chart-v2"
+import PerformanceDashboard from "@/performance-chart-v2";
 
 export default function Home() {
   return (
@@ -18,7 +18,13 @@ export default function Home() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path d="M19 9l-7 7-7-7" stroke="#888" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <path
+                d="M19 9l-7 7-7-7"
+                stroke="#888"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
             </svg>
             <h2 className="text-lg font-medium text-gray-300">Publishers</h2>
           </div>
@@ -35,12 +41,18 @@ export default function Home() {
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
-              <path d="M19 9l-7 7-7-7" stroke="#888" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              <path
+                d="M19 9l-7 7-7-7"
+                stroke="#888"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
             </svg>
             <h2 className="text-lg font-medium text-gray-300">Subscribers</h2>
           </div>
         </div>
       </div>
     </main>
-  )
+  );
 }
